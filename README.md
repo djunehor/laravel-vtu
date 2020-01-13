@@ -1,12 +1,11 @@
 # Laravel SMS
-[![CircleCI](https://circleci.com/gh/djunehor/laravel-sms.svg?style=svg)](https://circleci.com/gh/djunehor/laravel-sms)
-[![Latest Stable Version](https://poser.pugx.org/djunehor/laravel-sms/v/stable)](https://packagist.org/packages/djunehor/laravel-sms)
-[![Total Downloads](https://poser.pugx.org/djunehor/laravel-sms/downloads)](https://packagist.org/packages/djunehor/laravel-sms)
-[![License](https://poser.pugx.org/djunehor/laravel-sms/license)](https://packagist.org/packages/djunehor/laravel-sms)
-[![StyleCI](https://github.styleci.io/repos/224398453/shield?branch=master)](https://github.styleci.io/repos/224398453)
-[![Build Status](https://scrutinizer-ci.com/g/djunehor/laravel-sms/badges/build.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-sms/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/djunehor/laravel-sms/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-sms/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/djunehor/laravel-sms/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-sms/?branch=master)
+[![CircleCI](https://circleci.com/gh/djunehor/laravel-vtu.svg?style=svg)](https://circleci.com/gh/djunehor/laravel-vtu)
+[![Latest Stable Version](https://poser.pugx.org/djunehor/laravel-vtu/v/stable)](https://packagist.org/packages/djunehor/laravel-vtu)
+[![Total Downloads](https://poser.pugx.org/djunehor/laravel-vtu/downloads)](https://packagist.org/packages/djunehor/laravel-vtu)
+[![License](https://poser.pugx.org/djunehor/laravel-vtu/license)](https://packagist.org/packages/djunehor/laravel-vtu)
+[![Build Status](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/badges/build.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-vtu/?branch=master)
 
 Laravel VTU allows you to buy airtime and data plan, as well as pay for utility bill from your Laravel application using one of over 3 vtu providers, or your own vtu provider.
 
