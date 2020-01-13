@@ -22,4 +22,8 @@ return [
         'username' => env('UNIK_MOBILE_USERNAME'),
         'password' => env('UNIK_MOBILE_PASSWORD'),
     ],
+    'mobile_airtime' => [
+        'username' => env('MOBILE_AIRTIME_USERNAME'),
+        'password' => env('MOBILE_AIRTIME_PASSWORD'),
+    ],
 ];
