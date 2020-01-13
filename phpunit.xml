@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         verbose="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="true"
+         stopOnFailure="true">
+<testsuites>
+    <testsuite name="Laravel VTU Test Suite">
+        <directory>tests</directory>
+    </testsuite>
+</testsuites>
+<filter>
+    <whitelist>
+        <directory suffix=".php">src/</directory>
+    </whitelist>
+</filter>
+    <php>
+        <env name="VOICE_AND_TEXT_TOKEN" value="123456789abcdeghi"/>
+    </php>
+</phpunit>

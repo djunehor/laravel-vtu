@@ -1,0 +1,56 @@
+{
+  "name": "djunehor/laravel-vtu",
+  "description": "Purchase airtime, data plan and pay utility bills",
+  "keywords": [
+    "utility",
+    "laravel-package",
+    "laravel",
+    "php",
+    "djunehor",
+    "airtime",
+    "vtu",
+    "dstv",
+    "gotv",
+    "data plan"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zacchaeus Bolaji",
+      "email": "djunehor@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0|~7.2",
+    "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8",
+        "phpunit/phpunit": "^7.0"
+    },
+  "autoload": {
+    "psr-4": {
+      "Djunehor\\Vtu\\": "src/"
+    },
+      "files": [
+          "src/Helpers/helpers.php"
+      ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Djunehor\\Vtu\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Djunehor\\Vtu\\VtuServiceProvider"
+      ]
+    }
+  }
+}
