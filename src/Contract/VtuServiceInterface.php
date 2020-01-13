@@ -19,7 +19,7 @@ interface VtuServiceInterface
      * @param $mobileNumber
      * @param $mobileNetwork
      * @param $callBackUrl
-     * @return VtuServiceInterface
+     * @return bool
      */
     public function buyAirtime($amount, $mobileNumber, $mobileNetwork, $callBackUrl) : bool ;
 
